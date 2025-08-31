@@ -1,0 +1,88 @@
+/* Main Page Layout */
+.profile-page {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.sidebar ul li a:hover {
+  background: #34495e;
+}
+
+/* Logout Button */
+.sidebar .logout {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 5px;
+  background: #e74c3c;
+  text-align: center;
+}
+
+.sidebar .logout:hover {
+  background: #c0392b;
+}
+
+/* Profile Container */
+.profile-container {
+  flex: 1;
+  /* margin-left: 270px; Prevents overlap with sidebar */
+  padding: 10px;
+  text-align: center;
+}
+
+/* Profile Image */
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 100%;
+  border: 3px solid #2c3e50;
+}
+
+/* Profile Details */
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details h1 {
+  margin-bottom: 10px;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}

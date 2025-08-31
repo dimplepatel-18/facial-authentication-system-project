@@ -1,0 +1,53 @@
+/* Import Global Styles */
+@import "global.css";
+
+/* Profile Page Specific Styles */
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  width: 60%;
+}
+
+/* Logs Page Specific Styles */
+.logs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.log-item {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  width: 80%;
+  margin-bottom: 10px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar Specific Styles */
+.sidebar {
+  position: fixed;
+  width: 250px;
+  height: 100vh;
+  background-color: #2c3e50;
+  color: white;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar ul li a:hover {
+  color: #f39c12;
+}

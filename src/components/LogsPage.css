@@ -1,0 +1,53 @@
+.logs-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  button {
+    display: block;
+    margin: 10px auto;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+  .failed {
+    color: red;
+  }
+  .logs-content {
+    margin-left: 170px; /* Adjust according to sidebar */
+  }
+  
+  
+  
